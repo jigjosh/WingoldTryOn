@@ -29,7 +29,7 @@ function setup() {
   // Hide the video element, and just show the canvas
   video.hide();
   nose = loadImage("Nose.png");
-  jewelry  = loadImage("jewelry.png");
+  jewelry  = loadImage("jewelry1.png");
   textSize(16);
 }
 
