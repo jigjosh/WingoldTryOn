@@ -73,12 +73,8 @@ function drawKeypoints()  {
           pop();
           //text("NOSE", keypoint.position.x + -15, keypoint.position.y + 15);
         }
-      
-     
       }
-        
     }
-    
   }
 }
 
