@@ -75,7 +75,12 @@ function drawKeypoints()  {
           //text("NOSE", keypoint.position.x + -15, keypoint.position.y + 15);
         }
       }
+      else {
+        jewelry  = loadImage("");
+      }
+        
     }
+    
   }
 }
 
