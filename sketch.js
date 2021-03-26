@@ -55,6 +55,9 @@ function drawKeypoints()  {
       // A keypoint is an object describing a body part (like rightArm or leftShoulder)
       let keypoint = pose.keypoints[j];
       // Only draw an ellipse is the pose probability is bigger than 0.2
+      
+      console.log('score');
+      console.log(keypoint.score);
       if (keypoint.score > 0.6) {
         fill(255, 0, 0);
         noStroke();
@@ -65,8 +68,8 @@ function drawKeypoints()  {
           push();
           imageMode(CENTER);
           //text(j, keypoint.position.x , keypoint.position.y + + 20);
-          console.log(keypoint.position.x)
-          console.log(keypoint.position.y)
+          console.log(Math.trunc(keypoint.position.x))
+          console.log(Math.trunc(keypoint.position.y))
           image(jewelry,Math.trunc(keypoint.position.x) , Math.trunc(keypoint.position.y) + 40  , 40, 60);
           pop();
           //text("NOSE", keypoint.position.x + -15, keypoint.position.y + 15);
