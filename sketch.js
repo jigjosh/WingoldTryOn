@@ -69,7 +69,7 @@ function drawKeypoints()  {
           //text(j, keypoint.position.x , keypoint.position.y + + 20);
           console.log(Math.trunc(keypoint.position.x))
           console.log(Math.trunc(keypoint.position.y))
-          image(jewelry,Math.trunc(keypoint.position.x) , Math.trunc(keypoint.position.y) + 30  , 30, 60);
+          image(jewelry,Math.trunc(keypoint.position.x) , Math.trunc(keypoint.position.y) + 40  , 30, 60);
           pop();
           //text("NOSE", keypoint.position.x + -15, keypoint.position.y + 15);
         }
