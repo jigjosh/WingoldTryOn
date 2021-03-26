@@ -65,6 +65,8 @@ function drawKeypoints()  {
           push();
           imageMode(CENTER);
           //text(j, keypoint.position.x , keypoint.position.y + + 20);
+          console.log(keypoint.position.x)
+          console.log(keypoint.position.y)
           image(jewelry,keypoint.position.x , keypoint.position.y + 40  , 40, 60);
           pop();
           //text("NOSE", keypoint.position.x + -15, keypoint.position.y + 15);
