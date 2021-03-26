@@ -75,7 +75,7 @@ function drawKeypoints()  {
         }
       }
     }
-  
+  }
 }
 
 // A function to draw the skeletons
